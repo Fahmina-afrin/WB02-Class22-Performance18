@@ -1,0 +1,55 @@
+input:enabled{
+    background-color:green;
+}
+input:disabled{
+    background-color:aqua;
+}
+
+div p :first-of-type{
+    color:red;
+}
+input:focus{
+    background-color: blueviolet;
+}
+
+ input:in-range{
+    border:2px dotted yellow;
+    background-color:aqua;
+ }
+ input:out-of-range{
+    border: 2px solid red;
+    background-color:purple;
+ }
+ input: valid{
+    color:green;
+    border:2px solid green;
+ }
+ input:invalid{
+    color:brown;
+    border:2px solid red;
+ }
+ div span:last-child{
+    color:blue;
+ }
+ div p:first-of-type{
+    color:maroon;
+ }
+ .main-box{
+    height:200px;
+    width: 600px;
+    border: 2px solid black;
+ }
+ .sub-box{
+    height: 200px;
+    width:700px;
+    border: 2px solid goldenrod;
+ }
+ div p:last-of-type {
+ color :blue;
+ }
+ div: :first-child{
+    color:red;
+ }
+ div.main p : nth-child(odd){
+    color: red;
+ }
